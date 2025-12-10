@@ -13,21 +13,22 @@
 This makes LaneFusion Pro suitable for Autonomous Driving, Driver Assist Systems, Robotics, Simulations, and Research.
 
 # 📁 Project Structure
-<pre>
+<pre> 
   LaneFusion/
-│
-├── masks_png/                 # PNG lane masks
-├── road_line_annotation/      # (Looks unused or raw annotations)
-├── road_line_images/          # Source images for training/testing
-│
-├── LaneFusion2.ipynb          # Notebook 1
-├── LaneFusionAI-Main.ipynb    # Notebook 2 (Main research/training pipeline)
-│
-├── LaneFusionCV_UNET.h5       # Your trained U-Net model
-├── LF-AI.py                   # Python script (maybe inference?)
-│
-├── requirements.txt
-└── README.md   (to be created)  </pre>
+  │
+  ├── masks_png/                 # PNG lane masks
+  ├── road_line_annotation/      # (Looks unused or raw annotations)
+  ├── road_line_images/          # Source images for training/testing
+  │
+  ├── LaneFusion2.ipynb          # Notebook 1
+  ├── LaneFusionAI-Main.ipynb    # Notebook 2 (Main research/training pipeline)
+  │
+  ├── LaneFusionCV_UNET.h5       # Your trained U-Net model
+  ├── LF-AI.py                   # Python script (maybe inference?)
+  │
+  ├── requirements.txt
+  └── README.md   (to be created)  </pre>
+
 
 
 
