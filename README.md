@@ -1,4 +1,4 @@
-<p align="center">🚗✨ LaneFusion Pro – Advanced Lane Detection System (CV + U-Net + Streamlit App)</p>
+# <p align="center">🚗🤖 LaneFusion AI Pro – Advanced Lane Detection System (CV + U-Net + Streamlit App)</p>
 <p align="center"> <img src="https://img.shields.io/badge/Computer%20Vision-OpenCV-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/Deep%20Learning-U--Net-green?style=for-the-badge"/> <img src="https://img.shields.io/badge/App-Streamlit-red?style=for-the-badge"/> <img src="https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge"/> </p>
 
 # 📌 Overview
