@@ -139,80 +139,67 @@ model = load_unet_model("models/lane_unet.h5") </pre>
 <!-- 🧪 LaneFusion AI – Architecture Diagram -->
 <h2 align="center">🧪 LaneFusion AI – System Architecture</h2>
 
-<p align="center">
-<svg width="900" height="520" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg">
+<div align="center">
 
-  <!-- Background -->
-  <rect x="0" y="0" width="900" height="520" rx="16" fill="#0d1117"/>
+<table style="border-collapse: separate; border-spacing: 20px; background:#0d1117; padding:25px; border-radius:16px;">
 
-  <!-- Title -->
-  <text x="450" y="40" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="bold">
-    Lane Detection Architecture (CV + U-Net)
-  </text>
+  <!-- INPUT -->
+  <tr>
+    <td colspan="2" align="center"
+        style="background:#238636; color:white; padding:12px 28px; border-radius:10px; font-weight:bold;">
+      Input Frame (Image / Video / Webcam)
+    </td>
+  </tr>
 
-  <!-- Input -->
-  <rect x="360" y="70" width="180" height="40" rx="8" fill="#238636"/>
-  <text x="450" y="95" text-anchor="middle" fill="#ffffff" font-size="14">Input Frame</text>
+  <!-- PIPELINES -->
+  <tr>
+    <!-- CV PIPELINE -->
+    <td valign="top"
+        style="background:#161b22; border:2px solid #1f6feb; border-radius:14px; padding:18px; width:320px;">
+      <h3 style="color:#1f6feb; text-align:center; margin-top:0;">
+        Classical CV Pipeline
+      </h3>
+      <ul style="color:#c9d1d9; line-height:1.8;">
+        <li>Camera Undistortion</li>
+        <li>ROI Masking</li>
+        <li>Canny Edge Detection</li>
+        <li>Hough Line Transform</li>
+        <li>Perspective (Bird’s-Eye) Transform</li>
+        <li>Sliding Window Lane Search</li>
+        <li>Polynomial Curve Fitting</li>
+        <li>Lane Visualization</li>
+      </ul>
+    </td>
 
-  <!-- CV Pipeline -->
-  <rect x="80" y="150" width="260" height="300" rx="12" fill="#161b22" stroke="#1f6feb" stroke-width="2"/>
-  <text x="210" y="175" text-anchor="middle" fill="#1f6feb" font-size="16" font-weight="bold">
-    Classical CV Pipeline
-  </text>
+    <!-- U-NET PIPELINE -->
+    <td valign="top"
+        style="background:#161b22; border:2px solid #2ea043; border-radius:14px; padding:18px; width:320px;">
+      <h3 style="color:#2ea043; text-align:center; margin-top:0;">
+        Deep Learning Pipeline (U-Net)
+      </h3>
+      <ul style="color:#c9d1d9; line-height:1.8;">
+        <li>Input Preprocessing</li>
+        <li>U-Net Segmentation</li>
+        <li>Binary Lane Mask Generation</li>
+        <li>Mask Refinement</li>
+        <li>Overlay on Original Frame</li>
+        <li>Final Lane Output</li>
+      </ul>
+    </td>
+  </tr>
 
-  <text x="100" y="205" fill="#c9d1d9" font-size="13">
-    • Undistortion
-  </text>
-  <text x="100" y="230" fill="#c9d1d9" font-size="13">
-    • ROI Masking
-  </text>
-  <text x="100" y="255" fill="#c9d1d9" font-size="13">
-    • Canny Edge Detection
-  </text>
-  <text x="100" y="280" fill="#c9d1d9" font-size="13">
-    • Hough Transform
-  </text>
-  <text x="100" y="305" fill="#c9d1d9" font-size="13">
-    • Perspective Transform
-  </text>
-  <text x="100" y="330" fill="#c9d1d9" font-size="13">
-    • Sliding Window Search
-  </text>
-  <text x="100" y="355" fill="#c9d1d9" font-size="13">
-    • Polynomial Curve Fit
-  </text>
-  <text x="100" y="380" fill="#c9d1d9" font-size="13">
-    • Lane Visualization
-  </text>
+  <!-- OUTPUT -->
+  <tr>
+    <td colspan="2" align="center"
+        style="background:#8250df; color:white; padding:12px 28px; border-radius:10px; font-weight:bold;">
+      Lane Detection Output • Curvature • Vehicle Offset
+    </td>
+  </tr>
 
-  <!-- U-Net Pipeline -->
-  <rect x="560" y="150" width="260" height="300" rx="12" fill="#161b22" stroke="#2ea043" stroke-width="2"/>
-  <text x="690" y="175" text-anchor="middle" fill="#2ea043" font-size="16" font-weight="bold">
-    Deep Learning Pipeline (U-Net)
-  </text>
+</table>
 
-  <text x="580" y="215" fill="#c9d1d9" font-size="13">
-    • Preprocessing
-  </text>
-  <text x="580" y="245" fill="#c9d1d9" font-size="13">
-    • U-Net Segmentation
-  </text>
-  <text x="580" y="275" fill="#c9d1d9" font-size="13">
-    • Binary Lane Mask
-  </text>
-  <text x="580" y="305" fill="#c9d1d9" font-size="13">
-    • Mask Overlay
-  </text>
-  <text x="580" y="335" fill="#c9d1d9" font-size="13">
-    • Final Lane Output
-  </text>
+</div>
 
-  <!-- Arrows -->
-  <line x1="450" y1="110" x2="210" y2="150" stroke="#8b949e" stroke-width="2"/>
-  <line x1="450" y1="110" x2="690" y2="150" stroke="#8b949e" stroke-width="2"/>
-
-</svg>
-</p>
 
 
 # 📦 Future Enhancements
