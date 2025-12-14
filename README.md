@@ -18,7 +18,6 @@
   <img src="https://img.shields.io/badge/ML-TensorFlow%20%7C%20Keras-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge&logo=python" />
   <img src="https://img.shields.io/badge/UI-Streamlit-red?style=for-the-badge&logo=streamlit" />
-  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
 
 <!-- ADVANCED / SYSTEM BADGES -->
@@ -26,6 +25,7 @@
   <img src="https://img.shields.io/badge/Model-Classical%20CV%20%2B%20U--Net-purple?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Application-ADAS%20%7C%20Autonomous%20Driving-success?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=for-the-badge" />
+   <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
 
 <!-- DEPLOYMENT / INTEGRATION BADGES -->
