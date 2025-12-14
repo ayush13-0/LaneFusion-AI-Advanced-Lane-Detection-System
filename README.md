@@ -1,5 +1,42 @@
-# <p align="center">🚗🤖 LaneFusion AI – Advanced Lane Detection System (CV + U-Net + Streamlit App)</p>
-<p align="center"> <img src="https://img.shields.io/badge/Computer%20Vision-OpenCV-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/Deep%20Learning-U--Net-green?style=for-the-badge"/> <img src="https://img.shields.io/badge/App-Streamlit-red?style=for-the-badge"/> <img src="https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge"/> <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> </p>
+<!-- PROJECT BADGE -->
+<p align="center">
+  <img src="https://img.shields.io/badge/LaneFusion%20AI-Advanced%20Lane%20Detection%20System-blueviolet?style=for-the-badge&logo=python&logoColor=white" />
+</p>
+
+<!-- TITLE -->
+<h1 align="center">🚗🤖 LaneFusion AI – Advanced Lane Detection System</h1>
+
+<!-- TAGLINE -->
+<p align="center">
+  <b>An advanced Computer Vision & Deep Learning–based lane detection system using OpenCV, U-Net & Streamlit</b>
+</p>
+
+<!-- CORE TECH BADGES -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Computer%20Vision-OpenCV-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Deep%20Learning-U--Net-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ML-TensorFlow%20%7C%20Keras-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/UI-Streamlit-red?style=for-the-badge&logo=streamlit" />
+</p>
+
+<!-- ADVANCED / SYSTEM BADGES -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Model-Classical%20CV%20%2B%20U--Net-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Application-ADAS%20%7C%20Autonomous%20Driving-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=for-the-badge" />
+</p>
+
+<!-- DEPLOYMENT / INTEGRATION BADGES -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Deployment-Streamlit%20App-black?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Integration-ROS%20%7C%20CARLA%20%7C%20LGSVL-blue?style=for-the-badge" />
+</p>
+
+<!-- OPTIONAL DEMO BADGE -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Live%20Demo-Available-success?style=for-the-badge&logo=streamlit" />
+</p>
 
 # 📌 Overview
 
