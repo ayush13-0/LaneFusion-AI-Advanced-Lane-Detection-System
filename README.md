@@ -136,8 +136,10 @@ model = load_unet_model("models/lane_unet.h5") </pre>
 - Video Handling	imageio, cv2.VideoCapture
 - Visualization	Matplotlib, OpenCV overlays
 
+
+
 <!-- 🧪 LaneFusion AI – Architecture Diagram -->
-<h2 align="center">🧪 LaneFusion AI – System Architecture</h2>
+<h2>🧪 LaneFusion AI – System Architecture</h2>
 
 
 <table style="border-collapse: separate; border-spacing: 20px; background:#0d1117; padding:25px; border-radius:16px;">
@@ -169,7 +171,9 @@ model = load_unet_model("models/lane_unet.h5") </pre>
         <li>Lane Visualization</li>
       </ul>
     </td>
- <!-- PIPELINES -->
+ 
+    
+  <!-- PIPELINES -->
   <tr>
     <!-- U-NET PIPELINE -->
     <td valign="top"
