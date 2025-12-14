@@ -25,12 +25,12 @@
   <img src="https://img.shields.io/badge/Model-Classical%20CV%20%2B%20U--Net-purple?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Application-ADAS%20%7C%20Autonomous%20Driving-success?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=for-the-badge" />
-   <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
 
 <!-- DEPLOYMENT / INTEGRATION BADGES -->
 <p align="center">
   <img src="https://img.shields.io/badge/Deployment-Streamlit%20App-black?style=for-the-badge" />
+  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   <img src="https://img.shields.io/badge/Integration-ROS%20%7C%20CARLA%20%7C%20LGSVL-blue?style=for-the-badge" />
 </p>
 
