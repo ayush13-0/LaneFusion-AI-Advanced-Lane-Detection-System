@@ -139,7 +139,6 @@ model = load_unet_model("models/lane_unet.h5") </pre>
 <!-- 🧪 LaneFusion AI – Architecture Diagram -->
 <h2 align="center">🧪 LaneFusion AI – System Architecture</h2>
 
-<div align="center">
 
 <table style="border-collapse: separate; border-spacing: 20px; background:#0d1117; padding:25px; border-radius:16px;">
 
@@ -170,7 +169,8 @@ model = load_unet_model("models/lane_unet.h5") </pre>
         <li>Lane Visualization</li>
       </ul>
     </td>
-
+ <!-- PIPELINES -->
+  <tr>
     <!-- U-NET PIPELINE -->
     <td valign="top"
         style="background:#161b22; border:2px solid #2ea043; border-radius:14px; padding:18px; width:320px;">
@@ -186,6 +186,7 @@ model = load_unet_model("models/lane_unet.h5") </pre>
         <li>Final Lane Output</li>
       </ul>
     </td>
+    
   </tr>
 
   <!-- OUTPUT -->
