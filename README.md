@@ -1,5 +1,5 @@
 # <p align="center">🚗🤖 LaneFusion AI – Advanced Lane Detection System (CV + U-Net + Streamlit App)</p>
-<p align="center"> <img src="https://img.shields.io/badge/Computer%20Vision-OpenCV-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/Deep%20Learning-U--Net-green?style=for-the-badge"/> <img src="https://img.shields.io/badge/App-Streamlit-red?style=for-the-badge"/> <img src="https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge"/> </p>
+<p align="center"> <img src="https://img.shields.io/badge/Computer%20Vision-OpenCV-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/Deep%20Learning-U--Net-green?style=for-the-badge"/> <img src="https://img.shields.io/badge/App-Streamlit-red?style=for-the-badge"/> <img src="https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge"/> <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> </p>
 
 # 📌 Overview
 
