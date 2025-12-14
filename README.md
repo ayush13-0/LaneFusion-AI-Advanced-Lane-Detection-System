@@ -18,6 +18,7 @@
   <img src="https://img.shields.io/badge/ML-TensorFlow%20%7C%20Keras-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge&logo=python" />
   <img src="https://img.shields.io/badge/UI-Streamlit-red?style=for-the-badge&logo=streamlit" />
+  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
 
 <!-- ADVANCED / SYSTEM BADGES -->
